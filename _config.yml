@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Juan Pacheco Blog"
 title_separator          : "-"
 name                     : "Juan Pacheco"
-description              : "Artículos sobre ciberseguridad, CTFs e investigaciones"
+description              : "Artículos sobre tecnologia, deporte y dinero"
 url                      : "https://juanpachecodev.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "juansepach/juanpachecodev" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Juan Pacheco"
   avatar           : "/assets/images/avatar.png"
-  bio              : "sportsman, money enthusiast and technology lover"
+  bio              : "Technology lover, Sportsman and Money Enthusiast"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -128,7 +128,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "https://youtube.com/c/s4vitar"
+  youtube          : 
 
 
 # Reading Files
@@ -195,7 +195,7 @@ sass:
 
 # Outputting
 permalink: /:title/
-paginate: 10 # amount of posts to show
+paginate: 3  # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
