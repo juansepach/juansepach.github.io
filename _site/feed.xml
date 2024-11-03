@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-13T10:31:05+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Juan Pacheco Blog</title><subtitle>Artículos sobre tecnologia, deporte y dinero</subtitle><author><name>Juan Pacheco</name></author><entry><title type="html">Las Mejores Cuentas Remuneradas en España 2024</title><link href="http://localhost:4000/cuentas-remuneradas/" rel="alternate" type="text/html" title="Las Mejores Cuentas Remuneradas en España 2024" /><published>2024-05-15T00:00:00+02:00</published><updated>2024-05-15T00:00:00+02:00</updated><id>http://localhost:4000/cuentas-remuneradas</id><content type="html" xml:base="http://localhost:4000/cuentas-remuneradas/"><![CDATA[<p align="center">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-03T19:33:49+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Juan Pacheco Blog</title><subtitle>Artículos sobre tecnologia, deporte y dinero</subtitle><author><name>Juan Pacheco</name></author><entry><title type="html">Liberar el poder de la IA con PrivateGPT</title><link href="http://localhost:4000/AI-privateGPT/" rel="alternate" type="text/html" title="Liberar el poder de la IA con PrivateGPT" /><published>2024-11-03T00:00:00+01:00</published><updated>2024-11-03T00:00:00+01:00</updated><id>http://localhost:4000/AI-privateGPT</id><content type="html" xml:base="http://localhost:4000/AI-privateGPT/"><![CDATA[<p align="center">
+<img src="/assets/images/tecnologia/privategpt.jpg" />
+</p>
+
+<h2 id="liberar-el-poder-de-la-ia-con-privategpt">Liberar el poder de la IA con PrivateGPT</h2>
+
+<h3 id="beneficios-y-consideraciones-de-usar-la-ia-como-herramienta-diaria">Beneficios y consideraciones de usar la IA como herramienta diaria</h3>
+
+<p>La inteligencia artificial (IA) se ha convertido en una parte integral de nuestro mundo moderno y ofrece numerosos beneficios que pueden mejorar significativamente nuestra vida diaria. Estas son algunas ventajas de usar la IA como herramienta complementaria:</p>
+
+<ul>
+  <li><strong>Eficiencia y productividad</strong>: la IA puede procesar grandes cantidades de datos mucho más rápido que los humanos, lo que la convierte en una excelente herramienta para automatizar tareas repetitivas y optimizar los flujos de trabajo.</li>
+  <li><strong>Precisión y consistencia</strong>: los modelos de IA están diseñados para aprender de grandes conjuntos de datos y mejorar su rendimiento con el tiempo. Esto da como resultado resultados más precisos y consistentes en comparación con los esfuerzos humanos.</li>
+  <li><strong>Disponibilidad las 24 horas del día, los 7 días de la semana</strong>: a diferencia de los humanos, los sistemas de IA pueden funcionar las 24 horas del día, sin descansos ni vacaciones, lo que garantiza que las tareas se completen a tiempo y brinda asistencia constante.</li>
+</ul>
+
+<p>Sin embargo, es esencial considerar algunas desventajas potenciales al implementar la IA:</p>
+
+<ul>
+  <li><strong>Costo</strong>: implementar un sistema de IA puede ser costoso, especialmente para empresas y organizaciones. El costo del hardware, el software y el mantenimiento debe tenerse en cuenta en el proceso de toma de decisiones.</li>
+  <li><strong>Seguridad y privacidad</strong>: garantizar que sus datos estén seguros y protegidos contra el acceso no autorizado es fundamental cuando se utilizan sistemas de IA. Es esencial implementar medidas de seguridad sólidas y cumplir con las mejores prácticas para la privacidad de los datos.</li>
+</ul>
+
+<h2 id="qué-es-privategpt-y-cómo-instalarlo-en-wsl">¿Qué es PrivateGPT y cómo instalarlo en WSL?</h2>
+
+<p>PrivateGPT es un proyecto de inteligencia artificial de código abierto listo para producción que le permite hacer preguntas sobre sus documentos utilizando el poder de los modelos de lenguaje grandes (LLM) incluso sin una conexión a Internet. Es 100 % privado, lo que garantiza que ningún dato abandone su entorno de ejecución en ningún momento.
+Para instalar PrivateGPT en el subsistema de Windows para Linux (WSL), siga estos pasos:</p>
+<ol>
+  <li>Actualice su sistema e instale Ubuntu WSL desde Microsoft Store.</li>
+  <li>Clone el repositorio PrivateGPT y navegue hasta el directorio del proyecto.</li>
+  <li>Instale las dependencias utilizando Poetry.</li>
+  <li>Instale los Nvidia drivers de WSL para mejor procesamiento y tener soporte de la GPU.</li>
+  <li>Instale la librería LLAMA CUDA y python bindings y corra la el privateGPT con el comando ‘make run’.</li>
+  <li>Desde el navegador vaya a 127.0.0.1:8001 y ¡listo!</li>
+</ol>
+
+<p>El detalle de la instalacion se encuentra en el siguiente <a href="https://dev.to/docteurrs/installing-privategpt-on-wsl-with-gpu-support-1m2a">enlace</a>.</p>
+
+<h2 id="casos-de-uso-e-ideas-para-privategpt">Casos de uso e ideas para PrivateGPT</h2>
+
+<p>Ahora que ha instalado correctamente PrivateGPT en WSL, exploremos algunos casos de uso potenciales e ideas para esta poderosa herramienta de IA:</p>
+<ul>
+  <li><strong>Búsqueda de documentos sin conexión</strong>: use PrivateGPT para buscar en sus documentos locales sin una conexión a Internet.</li>
+  <li><strong>Filtrado de correo electrónico</strong>: use PrivateGPT para ordenar automáticamente su bandeja de entrada al categorizar los correos electrónicos según su contenido, incluso sin conexión a Internet.</li>
+  <li><strong>Resumen de texto</strong>: genere resúmenes de documentos o artículos extensos para ahorrar tiempo y mejorar la concentración, incluso sin una conexión a Internet.</li>
+  <li><strong>Análisis de datos</strong>: analice grandes conjuntos de datos para identificar tendencias, patrones y conocimientos que puedan informar las decisiones comerciales, incluso sin conexión.</li>
+  <li><strong>Desarrollo de chatbots</strong>: cree chatbots personalizados para atención al cliente, asistencia personal o fines de entretenimiento, garantizando la privacidad de los datos al mantener la interacción local.</li>
+</ul>
+
+<p>Al aprovechar el poder de la IA con PrivateGPT, puede optimizar sus tareas diarias y desbloquear nuevas posibilidades de productividad e innovación, incluso cuando no haya una conexión a Internet disponible.</p>]]></content><author><name>Juan Pacheco</name></author><category term="Tecnologia" /><category term="AI" /><summary type="html"><![CDATA[¿Por qué tener una IA privada y local?]]></summary></entry><entry><title type="html">Las Mejores Cuentas Remuneradas en España 2024</title><link href="http://localhost:4000/cuentas-remuneradas/" rel="alternate" type="text/html" title="Las Mejores Cuentas Remuneradas en España 2024" /><published>2024-05-15T00:00:00+02:00</published><updated>2024-05-15T00:00:00+02:00</updated><id>http://localhost:4000/cuentas-remuneradas</id><content type="html" xml:base="http://localhost:4000/cuentas-remuneradas/"><![CDATA[<p align="center">
 <img src="/assets/images/dinero/moneycards.jpg" />
 </p>
 

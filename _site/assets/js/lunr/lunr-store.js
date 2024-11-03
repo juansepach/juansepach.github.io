@@ -28,4 +28,9 @@ var store = [{
         "excerpt":"Las Mejores Cuentas Remuneradas en España 2024 Últimamente, he empezado a analizar e investigar cuáles pueden ser buenas opciones de inversión para este año en España. El principal problema es que las opciones más atractivas requieren de un alto capital inicial. Pero, ¿y qué hacer cuando no dispongo de altos...","categories": ["Dinero"],
         "tags": ["Ahorro"],
         "url": "http://localhost:4000/cuentas-remuneradas/",
-        "teaser":"http://localhost:4000/assets/images/dinero/moneycards.jpg"}]
+        "teaser":"http://localhost:4000/assets/images/dinero/moneycards.jpg"},{
+        "title": "Liberar el poder de la IA con PrivateGPT",
+        "excerpt":"Liberar el poder de la IA con PrivateGPT Beneficios y consideraciones de usar la IA como herramienta diaria La inteligencia artificial (IA) se ha convertido en una parte integral de nuestro mundo moderno y ofrece numerosos beneficios que pueden mejorar significativamente nuestra vida diaria. Estas son algunas ventajas de usar...","categories": ["Tecnologia"],
+        "tags": ["AI"],
+        "url": "http://localhost:4000/AI-privateGPT/",
+        "teaser":"http://localhost:4000/assets/images/tecnologia/privategpt.jpg"}]
