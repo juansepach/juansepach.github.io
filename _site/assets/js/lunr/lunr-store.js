@@ -33,4 +33,9 @@ var store = [{
         "excerpt":"Liberar el poder de la IA con PrivateGPT Beneficios y consideraciones de usar la IA como herramienta diaria La inteligencia artificial (IA) se ha convertido en una parte integral de nuestro mundo moderno y ofrece numerosos beneficios que pueden mejorar significativamente nuestra vida diaria. Estas son algunas ventajas de usar...","categories": ["Tecnologia"],
         "tags": ["AI"],
         "url": "http://localhost:4000/AI-privateGPT/",
-        "teaser":"http://localhost:4000/assets/images/tecnologia/privategpt.jpg"}]
+        "teaser":"http://localhost:4000/assets/images/tecnologia/privategpt.jpg"},{
+        "title": "Mi primer pódium en 10k",
+        "excerpt":"Cuando lo Imposible se Vuelve Real: Mi Primer Podium en 10K Hace un año, si alguien me hubiera dicho que iba a subirme a un pódium en una carrera de 10 km, le habría dicho que era imposible. No porque no creyera en mi —siempre he sido muy competitivo y...","categories": ["Deporte"],
+        "tags": ["Running"],
+        "url": "http://localhost:4000/primer-podium/",
+        "teaser":"http://localhost:4000/assets/images/carreras/diario_montanez_2024.jpg"}]
