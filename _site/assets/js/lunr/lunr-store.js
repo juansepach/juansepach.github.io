@@ -38,4 +38,9 @@ var store = [{
         "excerpt":"Cuando lo Imposible se Vuelve Real: Mi Primer Podium en 10K Hace un año, si alguien me hubiera dicho que iba a subirme a un pódium en una carrera de 10 km, le habría dicho que era imposible. No porque no creyera en mi —siempre he sido muy competitivo y...","categories": ["Deporte"],
         "tags": ["Running"],
         "url": "http://localhost:4000/primer-podium/",
-        "teaser":"http://localhost:4000/assets/images/carreras/diario_montanez_2024.jpg"}]
+        "teaser":"http://localhost:4000/assets/images/carreras/diario_montanez_2024.jpg"},{
+        "title": "Descubre el poder de la domótica con Home Assistant",
+        "excerpt":"Descubre el Poder de la Domótica con Home Assistant Todo empezó cuando decidí instalar una alarma en casa. Quería sentirme más seguro, tener control de lo que pasaba cuando no estaba, y evitar pagar costosos e innecesarios servicios de alarma. Buscando alternativas, encontré Home Assistant. Home Assistant es un controlador...","categories": ["Tecnologia"],
+        "tags": ["Domotica"],
+        "url": "http://localhost:4000/home-assistant/",
+        "teaser":"http://localhost:4000/assets/images/tecnologia/HA.jpg"}]
